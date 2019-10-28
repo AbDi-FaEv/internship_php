@@ -1,6 +1,6 @@
 <?php
 
-namespace array;
+namespace MyArray;
 
 /**
  * Notes:
@@ -9,7 +9,7 @@ namespace array;
  *
  * prefix 'my' - method must be implemented without predefined functions.
  */
-interface ArrayInterface
+interface MyArrayInterface
 {
     /**
      * Check if array is empty.
@@ -68,7 +68,7 @@ interface ArrayInterface
      * @param array $array[]
      * @param string $word
      *
-     * @return string
+     * @return array
      */
     public function putWordInTheMiddle(array $array, string $word);
 

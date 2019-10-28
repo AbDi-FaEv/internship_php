@@ -1,11 +1,11 @@
 <?php
 
-namespace array;
+namespace MyArray;
 
 /**
  * 
  */
-class Array implements \ArrayInterface
+class MyArray implements \MyArrayInterface
 {
     
     function __construct(argument)

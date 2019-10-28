@@ -1,11 +1,11 @@
 <?php
 
-namespace string;
+namespace MyString;
 
 /**
  * 
  */
-class String implements \StringInterface
+class MyString implements \MyStringInterface
 {
     
     function __construct(argument)
